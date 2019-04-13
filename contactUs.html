@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet">  
+        <script src="javascript/alert.js"></script>
+
+        <meta name="description" content="Contact us if you have any question">
+        <meta name="author" content="Temitope Igbosanya">
+    <title>
+        CONTATC US
+    </title>
+
+    </head>
+    <body >
+        <div class="first-div">
+            <ul >
+                <li><a href="index.html" class="tag">Home</a></li>
+                <li><a href="aboutUs.html" class="tag">About Us</a></li>
+                <li><a href="contactUs.html" class="tag">Contact Us</a></li>
+                <li><a href="product.html" class="tag">Products</a></li>                                                
+            </ul>
+        </div>
+        <div >
+            <img class="contactUsImg" src="img/contactUs.jpg" alt="Contact Us"/>
+        </div>
+        <div class="form-div">
+            <form>
+                <p class="input">
+                    First name:
+                    <input type="text" name="firstname">
+                </p>
+                <p class="input">
+                    Last name:
+                    <input type="text" name="lastname">
+                </p>
+                <p class="input">
+                    Login Id:
+                    <input type="password" name="pwd">
+                </p>
+                <p class="input">
+                    Please select an option
+                    <select>
+                        <option value="status">Order Status</option>
+                        <option value="cancel">Order Cancellation</option>
+                        <option value="other">Others</option>
+                    </select>
+                </p>
+                <p class="input">
+                    <textarea rows = "5" cols = "50" name = "desc">
+                        Enter detailed Information
+                    </textarea>
+                </p>
+                <input type = "submit" value = "Submit" onclick="display()" />
+               
+                
+            </form>
+        </div>
+        
+    </body>
+
+
+
+
+
+</html>
