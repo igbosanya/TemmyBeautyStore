@@ -1,0 +1,61 @@
+ ul {
+  list-style-type: none;
+  text-align: center
+  }
+  ul li{
+    display: inline;
+  }
+  .tag{
+    text-decoration: none;
+    margin-right: 5em;
+    color: #fff;
+   
+  }
+  .first-div{
+    background-color: #ff6666;  padding: 0.2em;
+  }
+  .second-div{
+    color: #fff;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 25em;
+    height: 100px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  body{
+    font-family: "Castellar";
+    
+  }
+  .third-div{
+    margin-top: 1em;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+  .aboutUsImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .contactUsImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .form-div{
+    text-align: center;
+  }
+  .input{
+    padding: 0.5em
+  }
+  .bg{
+    background-image: url("../img/bgimage.jpg");
+  }
